@@ -3,6 +3,10 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --green-btn: #4A6741;
+  --green-btn-hover: #394f32;
+  --brown-btn: #8B5E3C;
+  --green-btn-hover: #61422a;
 }
 
 @theme inline {
@@ -23,4 +27,12 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.custom-btn-green {
+  @apply bg-[var(--green-btn)] py-3 px-5 rounded-lg text-[var(--foreground)] hover:bg-[var(--green-btn-hover)]
+}
+
+.custom-btn-brown {
+  @apply bg-[var(--brown-btn)] py-3 px-5 rounded-lg bg-[var(--foreground)] hover:bg-[var(--brown-btn)] text-[var(--brown-btn)] hover:text-[var(--foreground)]
 }
