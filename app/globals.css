@@ -4,6 +4,7 @@
   --background: #ffffff;
   --foreground: #171717;
   --green-btn: #4A6741;
+  --green-btn-white: rgba(255, 255, 255, 0.10);
   --green-btn-hover: #394f32;
   --brown-btn: #8B5E3C;
   --brown-btn-hover: #61422a;
@@ -11,6 +12,7 @@
   --gray: gray;
   --black: black;
   --white: white;
+  --opacity-white: rgba(255, 255, 255, 0.2);
 }
 
 @theme inline {
@@ -63,4 +65,16 @@ body {
 
 .menu-nadpis {
   @apply text-xl text-[var(--black)]
+}
+
+.prostory-nadpis {
+  @apply text-4xl text-[var(--white)]
+}
+
+.prostory-text {
+  @apply text-base text-[var(--white)]
+}
+
+.kontaktujte-white {
+  @apply text-xl text-[var(--white)]
 }

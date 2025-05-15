@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Menu = () => {
   return (
-    <div className='bg-[var(--wheat)] space-'>
+    <div className='bg-[var(--wheat)]'>
       <div className='max-w-10/12 mx-auto py-20 space-y-4'>
         <div className='text-center space-y-4'>
             <p className='small-green-text'>Menu</p>
