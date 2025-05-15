@@ -6,7 +6,11 @@
   --green-btn: #4A6741;
   --green-btn-hover: #394f32;
   --brown-btn: #8B5E3C;
-  --green-btn-hover: #61422a;
+  --brown-btn-hover: #61422a;
+  --wheat: #F5F0E5;
+  --gray: gray;
+  --black: black;
+  --white: white;
 }
 
 @theme inline {
@@ -30,9 +34,33 @@ body {
 }
 
 .custom-btn-green {
-  @apply bg-[var(--green-btn)] py-3 px-5 rounded-lg text-[var(--foreground)] hover:bg-[var(--green-btn-hover)]
+  @apply bg-[var(--green-btn)] py-3 px-6 rounded-lg text-[var(--foreground)] hover:bg-[var(--green-btn-hover)] transition-all duration-150
 }
 
 .custom-btn-brown {
-  @apply bg-[var(--brown-btn)] py-3 px-5 rounded-lg bg-[var(--foreground)] hover:bg-[var(--brown-btn)] text-[var(--brown-btn)] hover:text-[var(--foreground)]
+  @apply bg-[var(--brown-btn)] py-3 px-6 rounded-lg bg-[var(--white)] hover:bg-[var(--brown-btn)] text-[var(--brown-btn)] hover:text-[var(--foreground)] transition-all duration-150
+}
+
+.small-green-text {
+  @apply text-[var(--green-btn)] text-base
+}
+
+.podnadpis {
+  @apply text-[var(--black)] text-4xl
+}
+
+.gray-text {
+  @apply text-[var(--gray)] text-base 
+}
+
+.normalni-text {
+  @apply text-[var(--black)] text-base
+}
+
+.menu-num {
+  @apply w-6 h-6 flex text-xs justify-center items-center my-2 mx-0.5 text-[var(--black)] bg-[var(--wheat)] rounded-sm
+}
+
+.menu-nadpis {
+  @apply text-xl text-[var(--black)]
 }
