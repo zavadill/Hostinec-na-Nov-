@@ -6,10 +6,11 @@ import Udalosti from "@/components/Hlavni/Udalosti";
 import Galerie from "@/components/Hlavni/Galerie";
 import Image from "next/image";
 import Kontaktuje from "@/components/Hlavni/Kontaktuje";
+import Rezervujte from "@/components/Hlavni/Rezervujte";
 
 export default function Home() {
   return (
-    <div className="">
+    <div>
       <Header />
       <Onas />
       <Menu />
@@ -17,6 +18,7 @@ export default function Home() {
       <Udalosti />
       <Galerie />
       <Kontaktuje />
+      <Rezervujte />
     </div>
   );
 }

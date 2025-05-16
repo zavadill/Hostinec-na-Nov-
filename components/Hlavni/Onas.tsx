@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Onas = () => {
   return (
-    <div className='bg-[var(--foreground)] py-20'>
+    <div className='bg-[var(--white)] py-20'>
       <div className='max-w-10/12 mx-auto space-y-4'>
         <p className='small-green-text'>O nás</p>
         <h2 className='podnadpis'>Tradiční české pohostinství</h2>

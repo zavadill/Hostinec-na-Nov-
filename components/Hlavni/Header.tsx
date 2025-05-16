@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Header = () => {
   return (
-    <div className="text-[var(--foreground)]">
+    <div className="text-[var(--white)] bg-amber-100">
       <div className='min-h-screen flex flex-col max-w-10/12 mx-auto justify-center space-y-5'>
         <h1 className='text-6xl'>Hostinec na Nové</h1>
         <p className='text-2xl'>Tradiční česká kuchyně v srdci Hané od roku 1762</p>

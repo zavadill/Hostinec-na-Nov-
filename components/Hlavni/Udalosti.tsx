@@ -10,7 +10,7 @@ const Udalosti = () => {
     <div className='bg-[var(--brown-btn)]'>
       <div className='max-w-10/12 mx-auto gap-5 flex py-20 items-center'>
         <img src="" alt="" className='flex-1/2'/>
-        <div className='space-y-5 flex-1/2'>
+        <div className='space-y-5 flex-1/2 text-[var(--white)]'>
             <p className='small-green-text'>Vaše události</p>
             <h5 className='text-[var(--white)] text-4xl'>Svatby a soukromé akce</h5>
             <p className='text-base text-[var(--white)]'>Pořádáte svatbu, rodinnou oslavu nebo firemní večírek? Nabízíme kompletní zajištění Vaší události od jídla až po výzdobu.</p>
