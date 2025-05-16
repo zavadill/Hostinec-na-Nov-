@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Menu = () => {
   return (
-    <div className='bg-[var(--wheat)]'>
+    <div className='bg-[var(--wheat)] space-y-5'>
       <div className='max-w-10/12 mx-auto py-20 space-y-4'>
         <div className='text-center space-y-4'>
             <p className='small-green-text'>Menu</p>
@@ -20,7 +20,7 @@ const Menu = () => {
                             <p className='small-green-text'>229 Kč</p>
                         </div>
                         <p className='gray-text'>Hovězí svíčková s houskovým knedlíkem, smetanovou omáčkou a brusinkami</p>
-                        <div className='flex flex-row border-t-[1px] border[var(--wheat)]'>
+                        <div className='flex flex-row border-t-[1px] border-[var(--wheat)]'>
                             <p className='menu-num'>1</p>
                             <p className='menu-num'>3</p>
                             <p className='menu-num'>7</p>
@@ -36,7 +36,7 @@ const Menu = () => {
                             <p className='small-green-text'>229 Kč</p>
                         </div>
                         <p className='gray-text'>Hovězí svíčková s houskovým knedlíkem, smetanovou omáčkou a brusinkami</p>
-                        <div className='flex flex-row border-t-[1px] border[var(--wheat)]'>
+                        <div className='flex flex-row border-t-[1px] border-[var(--wheat)]'>
                             <p className='menu-num'>1</p>
                             <p className='menu-num'>3</p>
                             <p className='menu-num'>7</p>
@@ -52,7 +52,7 @@ const Menu = () => {
                             <p className='small-green-text'>229 Kč</p>
                         </div>
                         <p className='gray-text'>Hovězí svíčková s houskovým knedlíkem, smetanovou omáčkou a brusinkami</p>
-                        <div className='flex flex-row border-t-[1px] border[var(--wheat)]'>
+                        <div className='flex flex-row border-t-[1px] border-[var(--wheat)]'>
                             <p className='menu-num'>1</p>
                             <p className='menu-num'>3</p>
                             <p className='menu-num'>7</p>
