@@ -10,11 +10,13 @@ const Galerie = () => {
                 <h6 className='podnadpis'>Galerie</h6>
                 <p className='gray-text'>Prohlédněte si prostředí našeho hostince, tradiční česká jídla a atmosféru, která vás u nás čeká.</p>
             </div>
-            <div className='flex flex-row py-5 gap-10'>
-                <div className='flex-1/4 h-[200px] bg-amber-200 rounded-lg'></div>
-                <div className='flex-1/4 h-[200px] bg-amber-200 rounded-lg'></div>
-                <div className='flex-1/4 h-[200px] bg-amber-200 rounded-lg'></div>
-                <div className='flex-1/4 h-[200px] bg-amber-200 rounded-lg'></div>
+            {/* Změna zde: Použití gridu pro responzivní sloupce */}
+            <div className='grid grid-cols-1 md:grid-cols-4 py-5 gap-10'>
+                {/* Odstraněno flex-1/4, výška a barva ponechány pro ukázku */}
+                <div className='h-[200px] bg-amber-200 rounded-lg'></div>
+                <div className='h-[200px] bg-amber-200 rounded-lg'></div>
+                <div className='h-[200px] bg-amber-200 rounded-lg'></div>
+                <div className='h-[200px] bg-amber-200 rounded-lg'></div>
             </div>
             <Link href="" className='custom-btn-green mx-auto'>Zobrazit kompletní galerii</Link>
         </div>

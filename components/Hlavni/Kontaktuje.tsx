@@ -9,7 +9,7 @@ const Kontaktuje = () => {
       <div className='max-w-10/12 mx-auto flex flex-col text-center py-20 space-y-5'>
         <h6 className='prostory-nadpis'>Kontaktuje nás</h6>
         <p className='prostory-text'>Rezervujte si stůl nebo nás kontaktujte s jakýmkoli dotazem. Rádi vám pomůžeme.</p>
-        <div className='flex flex-row gap-10 py-5 text-[var(--white)]'>
+        <div className='flex flex-col md:flex-row gap-10 py-5 text-[var(--white)]'>
             <div className='flex-1/3 p-7 bg-[var(--green-btn-white)] rounded-lg flex flex-col items-start'>
                 <div className='flex flex-row pb-5 items-center gap-4'>
                     <div className='bg-[var(--opacity-white)] p-2 rounded-full'>
